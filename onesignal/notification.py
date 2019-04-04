@@ -191,8 +191,8 @@ class Notification:
         self.check_type(data, "data", dict)
         self.check_type(url, "url", str)
         self.check_type(ios_attachments, "ios_attachments", dict)
-        self.check_type(big_picture, "big_picture", str)
-        self.check_type(adm_big_picture, "data", str)
+        #self.check_type(big_picture, "big_picture", str)
+        #self.check_type(adm_big_picture, "data", str)
         self.check_type(chrome_big_picture, "data", str)
 
         self.attachments_data = {
